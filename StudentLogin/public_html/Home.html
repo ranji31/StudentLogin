@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Home</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200&display=swap" rel="stylesheet"> 
+        <style>
+            .Attendance{
+                position: relative;
+                display: inline-block;
+            }
+            .drop-button{
+                background-color: #66ff33;
+                color: black;
+                padding: 15px;
+                font-size: 15px;
+                border: none;
+                border-radius: 5px;
+            }
+            .Attendance-info{
+                display: none;
+                position: absolute;
+                background-color: #f5f5f5;
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+                z-index: 1;
+            }
+            .Attendance-info a{
+                color: black;
+                padding: 15px;
+                text-decoration: none;
+                display: block;
+                border-radius: 5px;
+            }
+            .Attendance-info a:hover{
+                background-color: #2eb82e;
+            }
+            .Attendance:hover .Attendance-info{
+                display: block;
+            }
+            .Attendance:hover .drop-button{
+                background-color: #2eb82e;
+            }
+             .Home{
+                position: relative;
+                display: inline-block;
+               
+            }
+            .Home-info{
+                background-color: #66ff33;
+                color: black;
+                padding: 15px;
+                font-size: 15px;
+                border: none;
+                border-radius: 5px;
+            }
+            .Home-info a{
+                color: black;
+                border-radius: 5px;
+                text-decoration: none;
+            }
+             .Logout{
+                position: relative;
+                display: inline-block;
+               
+            }
+            .Logout-btn{
+                background-color: #66ff33;
+                color: black;
+                padding: 15px;
+                font-size: 15px;
+                border: none;
+                border-radius: 5px;
+            }
+            .Logout-btn a{
+                color: black;
+                border-radius: 5px;
+                text-decoration: none;
+            }
+             .Exam{
+                position: relative;
+                display: inline-block;
+            }
+            .Exam-btn{
+                background-color: #66ff33;
+                color: black;
+                padding: 15px;
+                font-size: 15px;
+                border: none;
+                border-radius: 5px;
+            }
+             .Exam-Details{
+                display: none;
+                position: absolute;
+                background-color: #f5f5f5;
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+                z-index: 1;
+            }
+            .Exam-details a{
+                color: black;
+                padding: 15px;
+                text-decoration: none;
+                display: block;
+                border-radius: 5px;
+            }
+            .Exam-details a:hover{
+                background-color: #2eb82e;
+            }
+            .Exam:hover .Exam-details{
+                display: block;
+            }
+            .Exam:hover .Exam-btn{
+                background-color: #2eb82e;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="Home">
+            <button class="Home-info"><a href="#">Home</a></button>
+        </div>
+       <div class="Attendance">
+        <button  class="drop-button" >Attendance </button>
+        <div class="Attendance-info">
+            <a href="Sem1Tabel.html">Semester 1</a>
+            <a href="www.google.com">Semester 2</a>
+             <a href="www.google.com">Semester 3</a>
+        </div>
+       </div>
+        <div class="Exam">
+            <button class="Exam-btn">Exam</button>
+            <div class="Exam-Details">
+            <a href="#">Hall Ticket</a>
+            <a href="#">Fess Details</a>
+            </div>
+        </div>
+        <div class="Logout">
+            <button class="Logout-btn"><a href="index.html">Logout</a></button>
+        </div>
+       
+    </body>
+</html>

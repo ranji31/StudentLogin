@@ -1,0 +1,19 @@
+{
+    "name": "StudentLogin",
+    "version": "1.0.0",
+    "keywords": [
+        "util",
+        "functional",
+        "server",
+        "client",
+        "browser"
+    ],
+    "author": "ranji",
+    "contributors": [
+    ],
+    "dependencies": {},
+    "scripts": {
+        "start": "node public_html\/index.html"
+    }
+
+}
